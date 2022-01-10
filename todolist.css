@@ -1,0 +1,163 @@
+
+/***Hero section Start***/
+*{
+  box-sizing: border-box;
+}
+  .showcase {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    color: white;
+    text-align: center;
+      background-image: linear-gradient(rgba(0, 0, 5, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1626606076701-cf4ae64b2b03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"); background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+   
+  }
+
+ 
+  
+  .showcase img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:99
+  }
+  
+  .showcase .overlay {
+    width: 100%;
+    height: 500px;
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:999
+  }
+  
+  .showcase h2 {
+    margin-top: 170px;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .showcase p {
+      border: 20px rgba(255, 255, 255, 0.466) solid;
+      border-top: 0;
+      border-bottom: 0;
+      padding: 10px;
+    margin-top: 40px;
+    font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+   
+
+
+  .containerTODO{
+    padding: 5%;
+  }
+  .containerTODO h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: gray;
+    
+    display: inline;
+  }
+  .containerTODO i{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.582);
+    
+  }
+
+  input[type='text']{
+    padding: 10px;
+    width: 90%;
+   
+  }
+
+#inputtodo{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+  .button-todo {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    min-height: 2rem;
+   padding: 15px;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-todo:hover,
+  .button-todo:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-todo:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-5:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+  #libtn{
+    float: right;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+  }
+   ol li:hover{
+    text-decoration: underline;
+    cursor: default;
+  } 
+  ol li{
+    text-transform: capitalize;
+    margin: 2% 10% 2% 10%;
+   
+    padding: 20px;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+  }
+ #libtn i{
+   font-size: 30px;
+ }
+  #libtn i:hover{
+    z-index: 1.2;
+    color: rgb(255, 0, 0);
+  }
+
+   /* create By Samith lakshitha Bandara */

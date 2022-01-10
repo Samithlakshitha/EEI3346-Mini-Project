@@ -1,0 +1,41 @@
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 5, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/samith/image/upload/v1641637149/dl.beatsnoop.com-1641637115_unwcwz.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: left;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+  .hero-section h1{
+      font-size: 90px;
+      font-family: 'Source Code Pro', monospace;
+  }
+  
+  .detils h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding: 35px;
+    margin: 20px;
+  }
+  .detils p{
+      margin: 1% 15% 2% 15%;
+      line-height: 1.5em;
+      font-size: 20px;
+  }
+  .detils a{
+      text-decoration: none;
+      color: red;
+  } 
+  /* create By Samith lakshitha Bandara */
